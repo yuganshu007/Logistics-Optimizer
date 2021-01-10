@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/themebc"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+
+
+      <ImageView
+
+
+          android:id="@+id/imageView3"
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:layout_marginLeft="40dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginTop="25dp"
+          app:srcCompat="@drawable/logo1"></ImageView>
+
+
+
+
+        <EditText
+
+            android:id="@+id/phoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="70dp"
+            android:inputType="phone"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/custominput"
+            android:padding="15dp"
+
+
+            android:hint="Enter Your Mobile Number" />
+
+
+        <Button
+
+            android:id="@+id/phoneverification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custombutton"
+            android:textSize="20sp"
+
+            android:text="Continue"
+            android:textColor="@android:color/white">
+
+        </Button>
+
+
+
+
+
+</LinearLayout>
